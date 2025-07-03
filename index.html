@@ -1,81 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ganesh Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <title>Amazon Affiliate Products</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    .btn-category {
-      margin: 5px;
-    }
-    .header-box {
-      text-align: center;
+      font-family: Arial, sans-serif;
       padding: 20px;
-      background-color: lightblue;
+      text-align: center;
     }
-    .name-title {
-      font-size: 30px;
-      font-weight: bold;
+    h2 {
+      margin-bottom: 40px;
     }
-    .address-line {
-      font-size: 16px;
-      color: #555;
+  h1{
+   background-color:yellow; 
+    
+  }
+    .product-row {
+      display: flex;
+      flex-wrap: wrap; /* Wrap on small screens */
+      justify-content: center;
+      gap: 20px;
+    }
+    .product-card {
+      width: 200px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      transition: transform 0.2s;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+      border-color: #ff9900;
+    }
+    .product-image {
+      width: 100%;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
+  <h1 #id =brand style = font-size:100px; > GANESH Website</b></h1>
+  <h2>Special Deals on Amazon</h2>
 
-<!-- 🔰 Name and Address Section -->
-<div class="header-box">
-  <div class="name-title"> Perugu Ganesh</div>
-  <div class="address-line">Hyderabad, Telangana, India</div>
-  <div class="address-line">Email: peruguganesh101@gmail.com | Phone: +91-9908204236</div>
+<h2 style = " background-color:lightblue;">Electronics</h2>
+  <div class="product-row">
 
-  <!-- 🔘 Category Buttons -->
-  <div class="mt-3">
-    <a href="#about" class="btn btn-outline-primary btn-category">About</a>
-    <a href="#projects" class="btn btn-outline-success btn-category">Projects</a>
-    <a href="#contact" class="btn btn-outline-danger btn-category">Contact</a>
+    <!-- Product 1 -->
+    <a href="https://amzn.to/3Gt3GZi" target="_blank" class="product-card">
+      <img src="https://m.media-amazon.com/images/I/61Ol4v72-NL._SX679_.jpg" alt="Product 1" class="product-image">
+    </a>
+
+    <!-- Product 2 -->
+    <a href="https://amzn.to/4eR0rId" target="_blank" class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71yZPdov-SL._SL1500_.jpg" alt="Product 2" class="product-image">
+    </a>
+
+    <!-- Product 3 -->
+    <a href="https://amzn.to/3IcBFG0" target="_blank" class="product-card">
+      <img src="https://m.media-amazon.com/images/I/81H18A8lmhL._SL1500_.jpg" alt="Product 3" class="product-image">
+    </a>
+
+    <!-- Add more products below using same format -->
+
   </div>
-</div>
 
-<!-- 🧑 About Section -->
-<section id="about" class="container bg-white shadow-sm rounded">
-  <h2>About Me</h2>
-  <p>I am a certified Full Stack Java Developer with skills in HTML, CSS, JavaScript, PHP, MySQL, and more. I'm also preparing for the UPSC exam, managing content, and building freelance projects.</p>
-</section>
+  <div class="product-row">
+    
 
-<!-- 💼 Projects Section -->
-<section id="projects" class="container bg-white shadow-sm rounded mt-4">
-  <h2>Projects</h2>
-  <ul>
-    <li>🔹 Mini ATM using Java</li>
-    <li>🔹 Online Voting System</li>
-    <li>🔹 Affiliate Marketing Website</li>
-    <li>🔹 Calculator App (HTML, CSS, JS)</li>
-    <li>🔹 This Personal Portfolio</li>
-  </ul>
-</section>
+    <!-- Product 1.1 -->
+    <a href="https://www.amazon.in/dp/B09W2D2K9R/ref=cm_sw_r_as_gl_apa_gl_i_XVRJQAGCBZBKMX00SFHF?linkCode=ml1&tag=ganesh1010d-21&linkId=36c9ec502b9cd4b480f314a9af3ebc46" target="_blank" class="product-card">
+      <img src="https://m.media-amazon.com/images/I/41H0hAdXjzL._SX300_SY300_QL70_FMwebp_.jpg" alt="Product 1" class="product-image">
+    </a>
 
-<!-- 📞 Contact Section -->
-<section id="contact" class="container bg-white shadow-sm rounded mt-4">
-  <h2>Contact Me</h2>
-  <p>Email: peruguganesh101@gmail.com</p>
-  <p>Phone: +91-9908204236</p>
-  <p>Location: Hyderabad, India</p>
-</section>
+    <!-- Product 2.1 -->
+    <a href="https://amzn.to/3TTQW0Y" target="_blank" class="product-card">
+      <img src="https://m.media-amazon.com/images/I/71frbEdeBzL._SL1500_.jpg" alt="Product 2" class="product-image">
+    </a>
 
-<!-- ⚙️ Footer -->
-<footer class="bg-dark text-white text-center p-3 mt-4">
-  © 2025 Ganesh Portfolio
-</footer>
+    <!-- Product 3.1 -->
+    <a href="https://amzn.to/44GCLCF" target="_blank" class="product-card">
+      <img src="https://m.media-amazon.com/images/I/81BENnbPpuL._SL1500_.jpg" alt="Product 3" class="product-image">
+    </a>
+
+    <!-- Add more products below using same format -->
+
+  </div>
 
 </body>
 </html>
